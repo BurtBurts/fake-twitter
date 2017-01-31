@@ -1,6 +1,13 @@
 <?php
   $tweets = array(
     array(
+      'name' => 'Alexandradra',
+      'pseudo' => '@Alexandradra_',
+      'tweet' => "J'ai réussi l'exercice PHP toute seule !!!!",
+      'profileurl' => 'https://twitter.com/Alexandradra_',
+      'profileimage' => '../images/avatar73.jpg',
+    ),
+    array(
       'name' => 'Ryhad',
       'pseudo' => '@Gryhades_et_BBQ',
       'tweet' => "J'ai pas linké ma librairie Angular... #KillMe",
@@ -12,21 +19,21 @@
       'pseudo' => '@VAL_10',
       'tweet' => "J'aurais vraiment dû faire mon exo Twitter ce week-end !",
       'profileurl' => 'https://twitter.com/DissaisV',
-      'profileimage' => '../images/people/val.JPG',
+      'profileimage' => '../images/people/val.jpg',
     ),
     array(
       'name' => 'César',
       'pseudo' => '@johnny_en_plein_doute',
       'tweet' => "Moi je fais l'exo avec Angular 1 parce que je suis DINGUE",
       'profileurl' => 'https://twitter.com/TailleurCesar',
-      'profileimage' => 'César',
+      'profileimage' => '../images/people/cesar.jpg',
     ),
     array(
       'name' => 'Élise',
       'pseudo' => '@Eliz_2_MARS',
       'tweet' => "J'ai pas linké ma librairie Angular... #KillMe",
-      'profileurl' => 'https://twitter.com/RyhadB',
-      'profileimage' => 'Ryhad',
+      'profileurl' => 'https://twitter.com/eukavlin',
+      'profileimage' => '../images/people/elise.jpg',
     ),
     array(
       'name' => 'Alexandradra',
