@@ -1,0 +1,184 @@
+<img src="images/people/dolphin_car.png" alt="Dolphin car" class="floating-img-01">
+<img src="images/people/mew.png" alt="Mew" class="floating-img-02">
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav col-md-6">
+                    <li class="active">
+                        <a href="http://www.twitter.com" target="_blank">
+                            <span class="Icon Icon--home"></span> Accueil
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/i/notifications">
+                            <span class="Icon Icon--notif"></span> Notifications
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/i/notifications#">
+                            <span class="Icon Icon--message"></span> Messages
+                        </a>
+                    </li>
+                </ul>
+                <a href="http://www.twitter.com">
+                    <img class="twitter center" src="images/twitter.png" alt="Twitter">
+                </a>
+                <a href="#"></a>
+                <span class="Icon Icon--tweet pull-right"></span>
+                <a href="https://twitter.com/settings/account">
+                    <img class="avatar img-rounded pull-right" src="images/avatar.jpg" alt="Belle gosse du 13" class="img-rounded pull-right">
+                </a>
+
+                <form class="navbar-form navbar-left pull-right">
+                    <div class="form-group left-addon">
+                        <span class="glyphicon glyphicon-search"></span>
+                        <input type="text" class="form-control" placeholder="Recherchez sur Twitter">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-1">
+            <div class="panel panel-default">
+                <div class="panel-heading"><img src="images/cover-picture.jpg" alt="Cover"></div>
+                <div class="panel-body">
+                    <div class="panel-header">
+                        <div class="media" id="overflowOK">
+                            <div class="media-left">
+                                <a class="avatar-left" href="https://twitter.com/Alexandradra_">
+                                    <img class="media-object img-rounded avatar-img" src="images/avatar73.jpg" alt="Your face">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h2 class="media-heading">
+                                      <a href="https://twitter.com/Alexandradra_">
+                                      Alexandradra 🦄
+                                      </a>
+                                    </h2>
+                                <p class="small gray">
+                                    <a href="https://twitter.com/Alexandradra_" class="green-hover">
+                                        @Alexandradra_
+                                      </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row no-padmarg">
+                            <div class="col-md-3">
+                                <a href="https://twitter.com/Alexandradra_">
+                                    <h3 class="small text-center gray green-hover"><strong>TWEETS</strong></h3>
+                                    <h4 class="green text-center">2832</h4>
+                                </a>
+                            </div>
+                            <div class="col-md-5">
+                                <a href="https://twitter.com/Alexandradra_/following">
+                                    <h3 class="small text-center gray green-hover"><strong>ABONNEMENTS</strong></h3>
+                                    <h4 class="green text-center">3</h4>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="https://twitter.com/Alexandradra_/followers">
+                                    <h3 class="small text-center gray green-hover"><strong>ABONNES</strong></h3>
+                                    <h4 class="green text-center">77,4 M</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="container-fluid feed" ng-controller="mainController">
+                <!-- LINE STARTS -->
+                <div class="row" ng-repeat="tweets in tweets" >
+                    <div class=" col-md-2 people-avatar">
+                        <img src="{{tweets.profileimage}}" alt="Profile picture" class="img-rounded">
+                    </div>
+                    <div class="col-md-10" >
+                        <h5 class "profile-name"> {{tweets.name}}
+                          <span class="green-hover small">
+                            <a href="{{tweets.profileurl}}">{{tweets.pseudo}}</a>
+                          </span>
+                        </h5>
+                    <p>{{tweets.tweet}}</p>
+                  </div>
+                </div>
+                <!-- LINE ENDS -->
+                <!-- LINE STARTS -->
+                <div class="row">
+                  <div class=" col-md-2 people-avatar">
+                    <img src="images/people/elise.jpg" alt="Elise" class="img-rounded">
+                  </div>
+                  <div class="col-md-10">
+                    <h5 class"profile-name">Elise 💯<span class="green-hover small"><a href="https://twitter.com/eukavlin">@Eliz_2_MARS</a></span></h3>
+                    <p>En pleine créa de filtres
+                      <a class="green tweet-link green-hover" href="https://twitter.com/search?q=findmymacbook&src=typd">#Snapchat</a>
+                      avec mon 💯
+                      <a class="tweet-link green-hover" href="https://twitter.com/alexnadradra_">@Alexandradra_</a>
+
+                    </p>
+                  </div>
+                </div>
+                <!-- LINE ENDS -->
+                <!-- LINE STARTS -->
+                <div class="row">
+                  <div class=" col-md-2 people-avatar">
+                    <img src="images/people/ryhad.JPG" alt="Ryhad" class="img-rounded">
+                  </div>
+                  <div class="col-md-10">
+                    <h5 class"profile-name">Ryhad <span class="green-hover small"><a href="https://twitter.com/RyhadB ">@Gryhades_et_BBQ</a></span></h5>
+                    <p>J'ai postilloné sur mon MacBook, je l'ai nettoyé à la Rozana, j'ai plus de MacBook, il s'est enfui
+                      <a class="green tweet-link green-hover" href="https://twitter.com/search?q=findmymacbook&src=typd">#findMyMacBook</a>
+                      <a class="tweet-link green-hover" href="https://twitter.com/PDGRozana">@PDGRozana</a>
+                    </p>
+                  </div>
+                </div>
+                <!-- LINE ENDS -->
+                <!-- LINE STARTS -->
+                <div class="row">
+                  <div class=" col-md-2 people-avatar">
+                    <img src="images/people/val.jpg" alt="Valentin" class="img-rounded">
+                  </div>
+                  <div class="col-md-10">
+                    <h5 class"profile-name">Valentin <span class="green-hover small"><a href="https://twitter.com/DissaisV">@VAL_10</a></span></h5>
+                    <p>Suivez-moi sur MySpace ! Je quitte Twitter !
+                      <a class="green tweet-link green-hover" href="https://twitter.com/search?q=twitterout&src=typd">#TwitterOut</a>
+                      <a class="tweet-link green-hover" href="https://myspace.com/">@Myspace</a>
+
+                    </p>
+                  </div>
+                </div>
+                <!-- LINE ENDS -->
+                <!-- LINE STARTS -->
+                <div class="row">
+                  <div class=" col-md-2 people-avatar">
+                    <img src="images/people/cesar.jpg" alt="Cesar" class="img-rounded">
+                  </div>
+                  <div class="col-md-10">
+                    <h5 class"profile-name">César <span class="green-hover small"><a href="https://twitter.com/TailleurCesar">@johnny_en_plein_doute</a></span></h5>
+                    <p>Quelqu'un sait comment on se connecte sur Twitter ? Je comprends rien à cette merde... <a class="green tweet-link green-hover" href="https://twitter.com/search?q=%23galere&src=typd&lang=fr">#galere</a></p>
+                  </div>
+                </div>
+                <!-- LINE ENDS -->
+                <!-- LINE STARTS -->
+                <div class="row">
+                  <div class=" col-md-2 people-avatar">
+                    <img src="images/people/sylvain.jpg" alt="Sylvain" class="img-rounded">
+                  </div>
+                  <div class="col-md-10">
+                    <h5 class"profile-name">Sylvain <span class="green-hover small">@toast_2_poulet_lol</span></h5>
+                    <p>Gros kiff sur le dernier <a class="tweet-link green-hover" href="https://twitter.com/jul?lang=fr">@Jul</a></p>
+                  </div>
+                </div>
+                <!-- LINE ENDS -->
+              </div>
+            </div>
+
+        </div>
+    </div>

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Rosetta';
+    src: url('/fonts/rosetta-icons-Regular.ttf');
+}
+
+.Icon {
+    font-family: 'Rosetta';
+    font-size: 1.5em;
+    padding-left: 5px;
+    display: block;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Icon--home:before {
+    content: "\00f053";
+}
+
+.Icon--connect:before {
+    content: "\00f050";
+}
+
+.Icon--notif:before {
+    content: "\00f055";
+}
+
+.Icon--discover:before {
+    content: "\00f052";
+}
+
+.Icon--me:before {
+    content: "\00f056";
+}
+
+.Icon--message:before {
+    content: "\00f054";
+}
+
+.Icon--setting:before {
+    content: "\00f059";
+}
+
+.Icon--tweet:before {
+    content: "\00f029";
+    background: rgba(127, 219, 182, .8);
+    padding: 7px 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+.Icon--bird:before {
+    content: "\00f179";
+    color: #0084b4;
+    padding: 0 5em;
+}
+
+.Icon--tweet:hover {
+    /*background-color: #0084B4;
+    padding: 3px 0px;
+    border-radius: 5px;*/
+}

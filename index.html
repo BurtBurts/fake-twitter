@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/twitter.png" />
+    <title>Fake Twitter</title>
+
+    <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link href="css/signin.css" rel="stylesheet">
+</head>
+
+<body ng-app="app" class="links-home">
+        <a ui-sref="login" ui-sref-active="active">Login</a>
+        <a ui-sref="feed" ui-sref-active="active">Feed</a>
+
+        <ui-view></ui-view>
+
+        <script src="lib/angular.js"></script>
+        <script src="lib/angular-ui-router.js"></script>
+        <script src="scripts/app.js"></script>
+</body>
+</html>

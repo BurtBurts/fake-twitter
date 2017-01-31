@@ -1,0 +1,165 @@
+/*RESET*/
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.links-home {
+  position: absolute;
+  bottom: 0;
+}
+a, a:link, a:hover, a:active, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+#overflowOK {
+    overflow: inherit !important;
+}
+
+.no-padmarg div {
+    padding: 0;
+    margin: 0;
+}
+/*IMAGES*/
+.floating-img-01 {
+  width: 50%;
+  position: fixed;
+  top: 50%;
+  left: 2%;
+}
+.floating-img-02 {
+  width: 17%;
+  position: fixed;
+  top: 50%;
+  right: 1%;
+}
+
+/*COLORS*/
+
+.gray {
+    color: gray;
+    margin-bottom: 0;
+}
+
+.green, .green-hover:hover {
+    color: #7FDBB6 !important;
+}
+
+.tweet-link {
+    font-weight: bold;
+}
+
+
+/*NAV*/
+
+.Icon--tweet {
+    font-size: 3em;
+}
+
+.container-fluid {
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.Icon--tweet {
+    margin-top: 11px;
+}
+
+.twitter {
+    width: 30px;
+    margin-top: 12px;
+}
+
+.avatar {
+    width: 35px;
+    margin-top: 8px;
+}
+
+.left-addon {
+    position: relative;
+}
+
+.left-addon .glyphicon {
+    position: absolute;
+    right: 0px;
+    padding: 9px;
+    pointer-events: none;
+}
+
+.glyphicon-search:hover {
+    cursor: pointer;
+}
+
+
+/*LEFT INTRO BLOCK*/
+
+.panel-heading {
+    padding: 0;
+    z-index: 0;
+}
+
+.panel-header a:hover {
+    text-decoration: underline;
+}
+
+.panel-body {
+    padding: 4px !important;
+}
+
+.avatar-img {
+    width: inherit;
+}
+
+.avatar-left {
+    z-index: 100;
+    margin: -40px 0 0 8px;
+    border: 2px solid #fff;
+    vertical-align: bottom;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+
+/*FEED*/
+
+.feed {
+    padding: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.feed .row {
+    border-bottom: 1px solid #e1e8ed;
+    padding: 2%;
+    margin: 0;
+    padding: 3%;
+}
+
+.people-avatar  {
+    position: relative;
+}
+.people-avatar img {
+  position: absolute;
+  top: -203%;
+  left: 6%;
+  width: 80%;
+}
+
+h5 {
+    font-size: 16px !important;
+    margin-top: 0;
+    font-weight: bold;
+}
