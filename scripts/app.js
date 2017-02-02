@@ -18,7 +18,7 @@ myApp.config(function($stateProvider) {
 });
 
 myApp.controller ("mainController", function($scope, $http) {
-  let source = $http.get('/php/tweets.php'); //Récupère une source de données
+  let source = $http.get('/scripts/tweets.php'); //Récupère une source de données
   source.then(function(display) {
         $scope.tweets = display.data;
     })
