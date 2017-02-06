@@ -1,4 +1,5 @@
 <?php
+  header("Access-Control-Allow-Origin: *");
   require_once '/home/alexandradra/.composer/vendor/autoload.php';
   $faker = Faker\Factory::create();
   $randOne = rand(0, 140);
